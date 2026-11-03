@@ -4,6 +4,7 @@
 using namespace std;
 using ll = long long;
 
+// snippet-begin: unionfind Union-Find
 struct unionfind
 {
   // v[i]=iが親なら-1*その集合のサイズ,違うなら親のindex
@@ -46,6 +47,7 @@ struct unionfind
     return -v[pa];
   }
 };
+// snippet-end
 
 int main()
 {

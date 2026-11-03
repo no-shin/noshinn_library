@@ -2,6 +2,7 @@
 using namespace std;
 using ll = long long;
 
+// snippet-begin: mint modint (mod 998244353)
 const int mod = 998244353;
 class mint
 {
@@ -76,6 +77,7 @@ public:
     return os;
   }
 };
+// snippet-end
 
 int main()
 {

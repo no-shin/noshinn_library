@@ -1,3 +1,4 @@
+// snippet-begin: RMQ セグメント木
 struct RMQ
 {
   const int INF = 0;
@@ -43,3 +44,4 @@ struct RMQ
     }
   }
 };
+// snippet-end
